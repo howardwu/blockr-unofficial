@@ -1,0 +1,30 @@
+{
+  "name": "blockr-unofficial",
+  "version": "1.1.1",
+  "description": "A Blockr adapter built to standardize the output of requests to follow the common-blockchain convention",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.58.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/howardwu/blockr-unofficial.git"
+  },
+  "keywords": [
+    "address",
+    "bitcoin",
+    "blockchain",
+    "blockr",
+    "transaction"
+  ],
+  "author": "Howard Wu",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/howardwu/blockr-unofficial/issues"
+  },
+  "homepage": "https://github.com/howardwu/blockr-unofficial#readme",
+  "maintainers": {
+    "Howard Wu": "howardwu@berkeley.edu",
+    "Andrew Malta": "andrew.malta@yale.edu"
+  }
+}
