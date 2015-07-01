@@ -1,6 +1,6 @@
 # blockr-unofficial
 
-[![Version](http://img.shields.io/npm/v/Blockr-unofficial.svg)](https://www.npmjs.org/package/Blockr-unofficial)
+[![Version](http://img.shields.io/npm/v/blockr-unofficial.svg)](https://www.npmjs.org/package/blockr-unofficial)
 
 A Blockr adapter built to standardize requests to follow the common-blockchain convention. Aliases are introduced in the return of functions to account for differences in convention between the two standards. It is our hope that the Bitcoin community will come to an agreement on proper style and convention for requests on addresses, transactions, and blocks. 
 
