@@ -10,6 +10,7 @@ blockrAPI().Addresses.Summary({
   console.log(resp);
 });
 
+// Invalid Example
 blockrAPI().Addresses.Summary({
   addresses: ["abcdefghijklmnopqrstuvxyz1234567890"]
 }, function (err, resp) {
@@ -28,6 +29,7 @@ blockrAPI().Addresses.Transactions({
   console.log(resp);
 });
 
+// Invalid Example
 blockrAPI().Addresses.Transactions({
   addresses: [
     "abcdefghijklmnopqrst"
@@ -48,6 +50,7 @@ blockrAPI().Addresses.Unspents({
   console.log(resp);
 });
 
+// Invalid Example
 blockrAPI().Addresses.Unspents({
   addresses: [
     "asdfghjkl"

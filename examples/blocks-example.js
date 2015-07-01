@@ -11,6 +11,7 @@ blockrAPI().Blocks.Get({
   console.log(resp);
 });
 
+// Invalid Example
 blockrAPI().Blocks.Get({
   blockIds: [
     "29384792387042379481703948710983749018374098137409817304987139"
