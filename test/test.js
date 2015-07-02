@@ -1,8 +1,8 @@
-var commonBlockchainTests = require('abstract-common-blockchain/tests/mainnet');
+var commonBlockchainMainnetTests = require('../../abstract-common-blockchain/tests/mainnet');
 var test = require('tape');
 var biteasyAPI = require('../');
 
-var common = {
+var commonMainnet = {
   setup: function(t, cb) {
     var commonBlockchain = biteasyAPI({ network: 'mainnet' })
     cb(null, commonBlockchain)
@@ -12,4 +12,4 @@ var common = {
   }
 }
 
-commonBlockchainTests(test, common);
+commonBlockchainMainnetTests(test, commonMainnet);
