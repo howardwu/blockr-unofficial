@@ -1,6 +1,6 @@
 {
   "name": "blockr-unofficial",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "A Blockr adapter built to standardize the output of requests to follow the common-blockchain convention",
   "main": "index.js",
   "scripts": {
