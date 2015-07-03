@@ -16,22 +16,19 @@ blockrAPI().Blocks.Get([
   console.log(resp);
 });
 
-
 /** LATEST **/
 
 blockrAPI().Blocks.Latest(function (err, resp) {
   console.log(resp);
 });
 
+/** PROPAGATE **/
 
-/** PROPOGATE **/
-
-blockrAPI().Blocks.Propogate({
+blockrAPI().Blocks.Propagate({
   blockHex: ''
 }, function (err, resp) {
   console.log(resp);
 });
-
 
 /** TRANSACTIONS **/
 

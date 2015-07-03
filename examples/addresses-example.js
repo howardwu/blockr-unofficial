@@ -16,7 +16,6 @@ blockrAPI().Addresses.Summary([
   console.log(resp);
 });
 
-
 /** TRANSACTIONS **/
 
 blockrAPI().Addresses.Transactions([
@@ -32,7 +31,6 @@ blockrAPI().Addresses.Transactions([
 ], function (err, resp) {
   console.log(resp);
 });
-
 
 /** UNSPENTS **/
 

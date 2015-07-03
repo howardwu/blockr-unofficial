@@ -22,7 +22,6 @@ blockrAPI().Transactions.Latest(function (err, resp) {
   console.log(resp);
 });
 
-
 /** OUTPUTS **/
 
 blockrAPI().Transactions.Outputs([
@@ -44,7 +43,6 @@ blockrAPI().Transactions.Outputs([
   console.log(resp);
 });
 
-
 /** PROPAGATE **/
 
 // Invalid Example
@@ -60,7 +58,6 @@ blockrAPI().Transactions.Propagate({
 }, function (err, resp) {
   console.log(resp);
 });
-
 
 /** STATUS **/
 
