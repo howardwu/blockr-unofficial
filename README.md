@@ -25,7 +25,7 @@ To use the Blockr API, simply require the module.
 
 ## Known Issues
 
-Biteasy currently only returns the confirmed balance of an address when requested. Therefore, our parameters for ```balance```, ```confirmedBalance```, and ```unconfirmedBalance``` are specified as such: 
+Blockr currently only returns the confirmed balance of an address when requested. Therefore, our parameters for ```balance```, ```confirmedBalance```, and ```unconfirmedBalance``` are specified as such: 
 ```
   {
     balance: null,
